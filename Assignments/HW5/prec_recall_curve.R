@@ -1,0 +1,9 @@
+a = read.table("/Users/xinshu/desktop/CS6200/Assignments/HW5/data/152101")
+b = read.table("/Users/xinshu/desktop/CS6200/Assignments/HW5/data/152102")
+c = read.table("/Users/xinshu/desktop/CS6200/Assignments/HW5/data/152103")
+
+pdf("/Users/xinshu/desktop/CS6200/Assignments/HW5/precision-recall_curves.pdf")
+plot(a$V1, a$V2, type = 'l', xlab="recall", ylab="precision", main="152101", col="red")
+plot(b$V1, b$V2, type = 'l', xlab="recall", ylab="precision", main="152102", col="red")
+plot(c$V1, c$V2, type = 'l', xlab="recall", ylab="precision", main="152103", col="red")
+dev.off()
