@@ -1,0 +1,46 @@
+HW3 Submission
+ 
+1. Your seed urls in your first frontier
+
+http://en.wikipedia.org/wiki/American_Revolutionary_War
+http://www.history.com/topics/american-revolution/american-revolution-history
+http://en.wikipedia.org/wiki/Founding_Fathers_of_the_United_States
+https://www.britannica.com/topic/founding-fathers
+http://www.smithsonianmag.com/history/founding-fathers-and-slaveholders-72262393/
+
+2. Count of unique urls indexed individually
+
+20088
+
+3. Time take to crawl
+
+7~9 h
+
+4. Total disk space size of your crawl or ES index size if applicable for Individual crawl
+
+2.26 GB
+
+5. Time taken to merge
+
+20 ~ 40 min/person
+
+6. Count of unique urls in Merged Index
+
+59363
+
+7. Merged ES index size
+
+9.1G
+ 
+Also provide a short explanation for:
+How do you decide which links to put in your Frontier list and which to ignore.
+
+1. can decode to ASCII or not
+2. forbidden or not
+3. visited or not
+4. filter by keywords in url
+
+How do you decide which link to crawl next, from your Frontier list.
+ 
+1. smallest depth
+2. inlink
